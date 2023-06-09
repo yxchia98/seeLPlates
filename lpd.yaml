@@ -1,0 +1,6 @@
+train: /data/license-plate/train/images/
+test: /data/license-plate/test/images/
+val: /data/license-plate/validation/images/
+
+nc: 1
+names: ['License Plate']
