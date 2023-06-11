@@ -33,7 +33,7 @@ def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 
 
 def plot_bboxes(image, boxes, labels=[], colors=[], score=True, conf=None):
     if labels == []:
-        labels = {0: u'__background__', 1: u'License Plate'}
+        labels = {0: u'__background__', 1: u''}
     #Define colors
     if colors == []:
         # NOTE: opencv uses the BGR format instead of RGB
