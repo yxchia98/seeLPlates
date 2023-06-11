@@ -59,16 +59,17 @@ def plot_bboxes(image, boxes, labels=[], colors=[], score=True, conf=None):
 
 
 def predict(image_ndarray):
-    images = []
-    images.append(image_ndarray)
-    results = model(images)
-    for result in results:
-        boxes = result.boxes  # Boxes object for bbox outputs
-        masks = result.masks  # Masks object for segmentation masks outputs
-        probs = result.probs  # Class probabilities for classification outputs
-        print(boxes.data)
-        pred = plot_bboxes(image, boxes.data, conf=0.1)
-        return pred
+    return image_ndarray
+#     images = []
+#     images.append(image_ndarray)
+#     results = model(images)
+#     for result in results:
+#         boxes = result.boxes  # Boxes object for bbox outputs
+#         masks = result.masks  # Masks object for segmentation masks outputs
+#         probs = result.probs  # Class probabilities for classification outputs
+#         print(boxes.data)
+#         pred = plot_bboxes(image, boxes.data, conf=0.1)
+#         return pred
 #         print(pred.__class__)
 #         plt.imshow(pred)
 #         plt.show()
