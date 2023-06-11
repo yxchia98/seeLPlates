@@ -7,6 +7,8 @@ import requests
 from io import BytesIO
 import cv2
 from matplotlib import pyplot as plt
+import json
+import base64
 
 
 model = YOLO('runs/detect/train_ori/weights/best.pt')  # load a custom model
@@ -58,8 +60,23 @@ def plot_bboxes(image, boxes, labels=[], colors=[], score=True, conf=None):
 
 
 
-def predict(image_ndarray):
-    return image_ndarray
+def predict(image_encoded):
+    image_decoded = base64.b64decode(image_encoded)
+    image_np = np.frombuffer(image_decoded, dtype=np.uint8)
+    image = cv2.imdecode(image_np, flags=1)
+    # do image predictions
+    images = []
+    images.append(image)
+    results = model(images)
+    for result in results:
+        boxes = result.boxes  # Boxes object for bbox outputs
+        masks = result.masks  # Masks object for segmentation masks outputs
+        probs = result.probs  # Class probabilities for classification outputs
+        pred = plot_bboxes(image, boxes.data, conf=0.1)
+        pred_image_as_text = base64.b64encode(cv2.imencode('.jpg', pred)[1]).decode() # encode and send back image
+        return pred_image_as_text
+    return image_encoded
+    
 #     images = []
 #     images.append(image_ndarray)
 #     results = model(images)
