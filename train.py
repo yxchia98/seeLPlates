@@ -16,7 +16,7 @@ model = YOLO('yolov8m.pt')  # load a pretrained model (recommended for training)
 # model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # build from YAML and transfer weights
 
 # Train the model
-model.train(data='lpd.yaml', epochs=200, imgsz=640, batch=-1, device='cpu')
+model.train(data='lpd.yaml', epochs=200, imgsz=640, batch=8, device='cpu')
 
 # Source path 
 src = '/cnvrg/runs/detect/train'
