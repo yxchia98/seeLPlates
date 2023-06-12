@@ -18,10 +18,10 @@ path = os.path.join(location, dir)
 if os.path.exists(path):
     shutil.rmtree(path)
 
-
+input_model = os.environ.get('model') + '.pt' if os.environ.get('model') else 'yolov8n.pt'
 # Load a model
 # model = YOLO('yolov8n.yaml')  # build a new model from YAML
-model = YOLO('yolov8s.pt')  # load a pretrained model (recommended for training)
+model = YOLO(input_model)  # load a pretrained model (recommended for training)
 # model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # build from YAML and transfer weights
 epochs = os.environ.get('epochs') if os.environ.get('epochs') else 10
 device = os.environ.get('device') if os.environ.get('device') else 'cpu'
