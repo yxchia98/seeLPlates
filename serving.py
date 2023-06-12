@@ -11,7 +11,7 @@ import json
 import base64
 
 
-model = YOLO('runs/detect/train_ori/weights/best.pt')  # load a custom model
+model = YOLO('output/train/weights/best.pt')  # load a custom model
 
 def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 255)):
   lw = max(round(sum(image.shape) / 2 * 0.003), 2)
@@ -77,16 +77,3 @@ def predict(image_encoded):
         return pred_image_as_text
     return image_encoded
     
-#     images = []
-#     images.append(image_ndarray)
-#     results = model(images)
-#     for result in results:
-#         boxes = result.boxes  # Boxes object for bbox outputs
-#         masks = result.masks  # Masks object for segmentation masks outputs
-#         probs = result.probs  # Class probabilities for classification outputs
-#         print(boxes.data)
-#         pred = plot_bboxes(image, boxes.data, conf=0.1)
-#         return pred
-#         print(pred.__class__)
-#         plt.imshow(pred)
-#         plt.show()
