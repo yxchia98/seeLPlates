@@ -14,7 +14,7 @@ import base64
 model = YOLO('output/train/weights/best.pt')  # load a custom model
 
 def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 255)):
-  lw = max(round(sum(image.shape) / 2 * 0.003), 2)
+  lw = max(round(sum(image.shape) / 2 * 0.003), 1)
   p1, p2 = (int(box[0]), int(box[1])), (int(box[2]), int(box[3]))
   cv2.rectangle(image, p1, p2, color, thickness=lw, lineType=cv2.LINE_AA)
   if label:
@@ -33,7 +33,7 @@ def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 
 
 def plot_bboxes(image, boxes, labels=[], colors=[], score=True, conf=None):
     if labels == []:
-        labels = {0: u'__background__', 1: u''}
+        labels = {0: u'__background__', 1: u'plate'}
     #Define colors
     if colors == []:
         # NOTE: opencv uses the BGR format instead of RGB
