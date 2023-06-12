@@ -1,4 +1,1320 @@
 ---
 :tree:
+  train.py:
+    :sha1: 74c300688d6b356b340316b865eaf55f689f3977
+    :commit_time: 
+    :last_modified: 1686550893.678689
+  README.md:
+    :sha1: 8abeb5d229fe85f6a9bc9a3f17cce4a9ecb1185a
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  test-images/: 
+  test-images/06.jpg:
+    :sha1: ccab47ab8569b4af25c268cc46c18fe291ffe152
+    :commit_time: 
+    :last_modified: 1686550893.678689
+  test-images/02.jpg:
+    :sha1: d0cebff845118929bf72cbf0ea8adba2098eddc4
+    :commit_time: 
+    :last_modified: 1686550893.6626878
+  test-images/03.jpg:
+    :sha1: a27e01d2569beb6174035143bd1fa57752cee14d
+    :commit_time: 
+    :last_modified: 1686550893.6626878
+  test-images/01.png:
+    :sha1: 9db3cd098432feda74978ed93917daa463ba6d64
+    :commit_time: 
+    :last_modified: 1686550893.6626878
+  runs/: 
+  runs/detect/: 
+  runs/detect/val/P_curve.png:
+    :sha1: af2c9f9f2e4596047a71d7049c93afa2ea5a2b17
+    :commit_time: 
+    :last_modified: 1686550893.6466863
+  runs/detect/val/F1_curve.png:
+    :sha1: 41ea7dbcbdf1bc6c9ebf35fe28241d817e46dea5
+    :commit_time: 
+    :last_modified: 1686550893.6466863
+  runs/detect/val/PR_curve.png:
+    :sha1: 572b54ef49fcf5aaa9a345ea7606130c353d0eeb
+    :commit_time: 
+    :last_modified: 1686550893.6466863
+  requirements.txt:
+    :sha1: f2b1535d90595fce7568a2e1281221fe88758b97
+    :commit_time: 
+    :last_modified: 1686550893.2426512
+  runs/detect/val/: 
+  runs/detect/val/confusion_matrix.png:
+    :sha1: 7921ebacaef1178d19950ed1e929dfd74ab87cb6
+    :commit_time: 
+    :last_modified: 1686550893.6506865
+  runs/detect/val/R_curve.png:
+    :sha1: b7502b216b6470374dff58b6f8e41f6174d44703
+    :commit_time: 
+    :last_modified: 1686550893.6506865
+  runs/detect/val/val_batch0_labels.jpg:
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550893.6506865
+  runs/detect/val/confusion_matrix_normalized.png:
+    :sha1: '08b05b56945307c4d7f63369a714aef255b5fe1f'
+    :commit_time: 
+    :last_modified: 1686550893.6506865
+  serving.py:
+    :sha1: 93072b0169f6837d1532885b4f0a8983c7b8e71f
+    :commit_time: 
+    :last_modified: 1686550893.6626878
+  test-images/05.jpg:
+    :sha1: ecccbb9a18a60581026b057657f92afd921cf174
+    :commit_time: 
+    :last_modified: 1686550893.678689
+  runs/detect/train/: 
+  runs/detect/train/F1_curve.png:
+    :sha1: 119ee711c66659091e859180c98684820a8ac65b
+    :commit_time: 
+    :last_modified: 1686550893.2426512
+  runs/detect/val/val_batch0_pred.jpg:
+    :sha1: 49be5e6f8f83113f2a73e05ec447d5ea8717ea6c
+    :commit_time: 
+    :last_modified: 1686550893.654687
+  runs/detect/train/val_batch0_pred.jpg:
+    :sha1: 892c74dbea8fe79578d1133799d6e921786f69ee
+    :commit_time: 
+    :last_modified: 1686550893.2706535
+  runs/detect/val/val_batch1_labels.jpg:
+    :sha1: 9caa7f0b7baa74e464940d667f4140b7cec3093c
+    :commit_time: 
+    :last_modified: 1686550893.654687
+  runs/detect/train/events.out.tfevents.1686502777.cnvrg-job-experiment-y55rryvtnhdm9jy7ojrc-1-99d498757-zrv8j.820.0:
+    :sha1: afe7a4873ef2a785b06ca2eab9662ca556062287
+    :commit_time: 
+    :last_modified: 1686550893.2546523
+  runs/detect/train/PR_curve.png:
+    :sha1: f9624f42ea106d29ea7345e5c491b9e9ba7554a5
+    :commit_time: 
+    :last_modified: 1686550893.2466514
+  runs/detect/val/val_batch2_pred.jpg:
+    :sha1: 460d8c5f6260feac3645463f5a17167e11796ef8
+    :commit_time: 
+    :last_modified: 1686550893.6626878
+  runs/detect/train/confusion_matrix.png:
+    :sha1: 7ef63e32b7706fc14abbbd2d8a0096e08cad7cf3
+    :commit_time: 
+    :last_modified: 1686550893.2466514
+  runs/detect/train/val_batch0_labels.jpg:
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550893.2666533
+  runs/detect/train/confusion_matrix_normalized.png:
+    :sha1: '069c8ea557964b5cffab0b313f790ff82f56ab00'
+    :commit_time: 
+    :last_modified: 1686550893.2466514
+  runs/detect/train/train_batch0.jpg:
+    :sha1: d0417cb84a36fac5fe3fd5859e7651529651e99f
+    :commit_time: 
+    :last_modified: 1686550893.2586524
+  runs/detect/val/val_batch2_labels.jpg:
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550893.658687
+  runs/detect/train/R_curve.png:
+    :sha1: ee654de7c68d4db7fe07a9eecdc57a564734bef7
+    :commit_time: 
+    :last_modified: 1686550893.2466514
+  runs/detect/train/val_batch1_labels.jpg:
+    :sha1: 9caa7f0b7baa74e464940d667f4140b7cec3093c
+    :commit_time: 
+    :last_modified: 1686550893.2706535
+  runs/detect/train/results.csv:
+    :sha1: 744cfc5384588bd1edd73643f46c3ccecf3777b3
+    :commit_time: 
+    :last_modified: 1686550893.2546523
+  runs/detect/train/val_batch2_pred.jpg:
+    :sha1: a1d94e03da05a2edbeaddccc739d4f4007472f6b
+    :commit_time: 
+    :last_modified: 1686550893.278654
+  runs/detect/train/val_batch2_labels.jpg:
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550893.278654
+  runs/detect/train/train_batch1.jpg:
+    :sha1: a0fe3344a3ae49b8951b6af1905acc28d06e9afd
+    :commit_time: 
+    :last_modified: 1686550893.2626526
+  runs/detect/train_ori/: 
+  runs/detect/train_ori/F1_curve.png:
+    :sha1: 0f66285169034fbdc53e162490b982687c140392
+    :commit_time: 
+    :last_modified: 1686550893.5466776
+  runs/detect/train_ori/val_batch0_pred.jpg:
+    :sha1: 49be5e6f8f83113f2a73e05ec447d5ea8717ea6c
+    :commit_time: 
+    :last_modified: 1686550893.5626788
+  runs/detect/train/args.yaml:
+    :sha1: 714cb5e15a6cd2ec85b168a0da65e9e0be9c227d
+    :commit_time: 
+    :last_modified: 1686550893.2466514
+  runs/detect/train/weights/: 
+  yolov8n.pt:
+    :sha1: 1a83d84eb96ad089c257b7c1ad6303695fd82f41
+    :commit_time: 
+    :last_modified: 1686550893.7266932
+  runs/detect/val/val_batch1_pred.jpg:
+    :sha1: b7e383ee1d98edf298424862b0cebf69304237d4
+    :commit_time: 
+    :last_modified: 1686550893.658687
+  runs/detect/train/results.png:
+    :sha1: 93e0f63a0fd6db7287837bcbafe078dd01617618
+    :commit_time: 
+    :last_modified: 1686550893.2586524
+  runs/detect/train_ori/confusion_matrix_normalized.png:
+    :sha1: 91bf7d5269cf4bed202499ac3f054bfecedb392b
+    :commit_time: 
+    :last_modified: 1686550893.5466776
+  runs/detect/train/labels.jpg:
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550893.2546523
+  runs/detect/train_ori/args.yaml:
+    :sha1: 987e96a7521e35f1e0847a8d61c918c35830669f
+    :commit_time: 
+    :last_modified: 1686550893.5466776
+  runs/detect/train/train_batch2.jpg:
+    :sha1: dfd80a24c55294b1847373844535089fe51a697b
+    :commit_time: 
+    :last_modified: 1686550893.2626526
+  runs/detect/train_ori/val_batch0_labels.jpg:
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550893.5626788
+  runs/detect/train_ori/labels_correlogram.jpg:
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550893.5506778
+  runs/detect/train_ori/PR_curve.png:
+    :sha1: d452fbc96c62ac305fecd878019922c037d79b71
+    :commit_time: 
+    :last_modified: 1686550893.5466776
+  runs/detect/train/P_curve.png:
+    :sha1: dcd704fa01a0c18d965ca5a3ae76148c7c39ef2f
+    :commit_time: 
+    :last_modified: 1686550893.2466514
+  runs/detect/train/val_batch1_pred.jpg:
+    :sha1: cee4c3c4c211b383c8d8e8836a7486de6f1b87d1
+    :commit_time: 
+    :last_modified: 1686550893.2746537
+  runs/detect/train_ori/train_batch0.jpg:
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550893.5546782
+  test-images/04.png:
+    :sha1: 45eac4f9f31d102ce59dc74b4b5a95acbb5e750b
+    :commit_time: 
+    :last_modified: 1686550893.678689
+  runs/detect/train_ori/val_batch1_pred.jpg:
+    :sha1: 460d8c5f6260feac3645463f5a17167e11796ef8
+    :commit_time: 
+    :last_modified: 1686550893.5666792
+  runs/detect/train_ori/confusion_matrix.png:
+    :sha1: aa2df158c44b5b1043d7c65118268c1c0d3cf000
+    :commit_time: 
+    :last_modified: 1686550893.5466776
+  runs/detect/train_ori/labels.jpg:
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550893.5506778
+  runs/detect/train_ori/R_curve.png:
+    :sha1: 908cbc8e3ee2585cdf78d2886ade32b6ab133618
+    :commit_time: 
+    :last_modified: 1686550893.5466776
+  runs/detect/train/labels_correlogram.jpg:
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550893.2546523
+  runs/detect/train_ori/results.csv:
+    :sha1: be2f1a8c1f1906de2ce65f180d2efa894f4cde33
+    :commit_time: 
+    :last_modified: 1686550893.5506778
+  runs/detect/train_ori/val_batch2_pred.jpg:
+    :sha1: 428e9fef20c52f27bd8be1eab1714c92fa4d14ef
+    :commit_time: 
+    :last_modified: 1686550893.57468
+  runs/detect/train_ori/val_batch2_labels.jpg:
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550893.5706797
+  runs/detect/train_ori/weights/: 
+  output/train/val_batch0_pred.jpg:
+    :sha1: 892c74dbea8fe79578d1133799d6e921786f69ee
+    :commit_time: 
+    :last_modified: 1686550892.9146225
+  output/train/results.png:
+    :sha1: 93e0f63a0fd6db7287837bcbafe078dd01617618
+    :commit_time: 
+    :last_modified: 1686550892.9026215
+  output/train/val_batch1_pred.jpg:
+    :sha1: cee4c3c4c211b383c8d8e8836a7486de6f1b87d1
+    :commit_time: 
+    :last_modified: 1686550892.9186227
+  output/train/confusion_matrix.png:
+    :sha1: 7ef63e32b7706fc14abbbd2d8a0096e08cad7cf3
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  output/train/val_batch0_labels.jpg:
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.9106221
+  output/train/confusion_matrix_normalized.png:
+    :sha1: '069c8ea557964b5cffab0b313f790ff82f56ab00'
+    :commit_time: 
+    :last_modified: 1686550892.8946207
+  output/train/PR_curve.png:
+    :sha1: f9624f42ea106d29ea7345e5c491b9e9ba7554a5
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  runs/detect/train_ori/train_batch2.jpg:
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550893.5626788
+  output/train/: 
+  best.pt:
+    :sha1: '08913968f8132dd5d1b5421a1586e937f9bde23e'
+    :commit_time: 
+    :last_modified: 1686550892.8866198
+  runs/detect/train_ori/train_batch1.jpg:
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550893.5586786
   output/: 
+  output/train/F1_curve.png:
+    :sha1: 119ee711c66659091e859180c98684820a8ac65b
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  runs/detect/train_ori/P_curve.png:
+    :sha1: 22812a151b74e3738e10d87d4ae324ce47d46396
+    :commit_time: 
+    :last_modified: 1686550893.5466776
+  output/train/args.yaml:
+    :sha1: 714cb5e15a6cd2ec85b168a0da65e9e0be9c227d
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  output/train/weights/: 
+  runs/detect/train_ori/val_batch1_labels.jpg:
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550893.5666792
+  output/train/train_batch2.jpg:
+    :sha1: dfd80a24c55294b1847373844535089fe51a697b
+    :commit_time: 
+    :last_modified: 1686550892.9066217
+  output/train/labels.jpg:
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.8986208
+  output/train/P_curve.png:
+    :sha1: dcd704fa01a0c18d965ca5a3ae76148c7c39ef2f
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  output/train/val_batch2_labels.jpg:
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.9186227
+  output/train/R_curve.png:
+    :sha1: ee654de7c68d4db7fe07a9eecdc57a564734bef7
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  output/train/results.csv:
+    :sha1: 744cfc5384588bd1edd73643f46c3ccecf3777b3
+    :commit_time: 
+    :last_modified: 1686550892.8986208
+  output/train/val_batch2_pred.jpg:
+    :sha1: a1d94e03da05a2edbeaddccc739d4f4007472f6b
+    :commit_time: 
+    :last_modified: 1686550892.9306238
+  ".Trash-0/": 
+  ".Trash-0/files/train 2/": 
+  ".Trash-0/files/": 
+  ".Trash-0/files/train 2/F1_curve.png":
+    :sha1: 0f66285169034fbdc53e162490b982687c140392
+    :commit_time: 
+    :last_modified: 1686550892.2825675
+  cnvrg-predict.ipynb:
+    :sha1: f388fdc7bf5f0211a26d9085ca45cbaf924a3c18
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  output/train/val_batch1_labels.jpg:
+    :sha1: 9caa7f0b7baa74e464940d667f4140b7cec3093c
+    :commit_time: 
+    :last_modified: 1686550892.9146225
+  ".Trash-0/files/train 2/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.2985687
+  ".Trash-0/files/train 2/confusion_matrix_normalized.png":
+    :sha1: 91bf7d5269cf4bed202499ac3f054bfecedb392b
+    :commit_time: 
+    :last_modified: 1686550892.2865677
+  output/train/train_batch0.jpg:
+    :sha1: d0417cb84a36fac5fe3fd5859e7651529651e99f
+    :commit_time: 
+    :last_modified: 1686550892.9026215
+  ".Trash-0/files/train 2/val_batch1_pred.jpg":
+    :sha1: 460d8c5f6260feac3645463f5a17167e11796ef8
+    :commit_time: 
+    :last_modified: 1686550892.3065696
+  output/train/labels_correlogram.jpg:
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.8986208
+  runs/detect/train_ori/weights/last.pt:
+    :sha1: e43ccf94d36f08d90682072e60ab429242bf07f9
+    :commit_time: 
+    :last_modified: 1686550893.6466863
+  ".Trash-0/files/train 2/args.yaml":
+    :sha1: 987e96a7521e35f1e0847a8d61c918c35830669f
+    :commit_time: 
+    :last_modified: 1686550892.2825675
+  ".Trash-0/files/train 2/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.290568
+  ".Trash-0/files/train 2/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.290568
+  ".Trash-0/files/train 2/weights/": 
+  ".Trash-0/files/train 2/confusion_matrix.png":
+    :sha1: aa2df158c44b5b1043d7c65118268c1c0d3cf000
+    :commit_time: 
+    :last_modified: 1686550892.2825675
+  output/train/train_batch1.jpg:
+    :sha1: a0fe3344a3ae49b8951b6af1905acc28d06e9afd
+    :commit_time: 
+    :last_modified: 1686550892.9066217
+  ".Trash-0/files/train 2/val_batch0_pred.jpg":
+    :sha1: 49be5e6f8f83113f2a73e05ec447d5ea8717ea6c
+    :commit_time: 
+    :last_modified: 1686550892.3025692
+  ".Trash-0/files/train 2/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.2985687
+  ".Trash-0/files/train 2/weights/best.pt":
+    :sha1: '08913968f8132dd5d1b5421a1586e937f9bde23e'
+    :commit_time: 
+    :last_modified: 1686550892.3505733
+  ".Trash-0/files/train 2/results.csv":
+    :sha1: be2f1a8c1f1906de2ce65f180d2efa894f4cde33
+    :commit_time: 
+    :last_modified: 1686550892.290568
+  ".Trash-0/files/train 2/P_curve.png":
+    :sha1: 22812a151b74e3738e10d87d4ae324ce47d46396
+    :commit_time: 
+    :last_modified: 1686550892.2825675
+  ".Trash-0/files/train 2/PR_curve.png":
+    :sha1: d452fbc96c62ac305fecd878019922c037d79b71
+    :commit_time: 
+    :last_modified: 1686550892.2825675
+  ".Trash-0/files/train 2/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.3105698
+  ".Trash-0/files/train 2/events.out.tfevents.1686321982.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.268.0":
+    :sha1: 52cb1846ea0dab9af078c5311e8261e9bc05fe8d
+    :commit_time: 
+    :last_modified: 1686550892.2865677
+  ".Trash-0/files/train 4/": 
+  ".Trash-0/files/train 4/F1_curve.png":
+    :sha1: 50c39856be2c4626c6cca605660a7feeaa67f6b4
+    :commit_time: 
+    :last_modified: 1686550892.4945858
+  output/train/events.out.tfevents.1686502777.cnvrg-job-experiment-y55rryvtnhdm9jy7ojrc-1-99d498757-zrv8j.820.0:
+    :sha1: afe7a4873ef2a785b06ca2eab9662ca556062287
+    :commit_time: 
+    :last_modified: 1686550892.8986208
+  ".Trash-0/files/train 2/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.3065696
+  ".Trash-0/files/train 2/val_batch2_pred.jpg":
+    :sha1: 428e9fef20c52f27bd8be1eab1714c92fa4d14ef
+    :commit_time: 
+    :last_modified: 1686550892.3105698
+  ".Trash-0/files/train 2/R_curve.png":
+    :sha1: 908cbc8e3ee2585cdf78d2886ade32b6ab133618
+    :commit_time: 
+    :last_modified: 1686550892.2825675
+  ".Trash-0/files/train 2/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.2865677
+  ".Trash-0/files/train 4/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.5145876
+  ".Trash-0/files/train 2/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.2945685
+  ".Trash-0/files/train 4/events.out.tfevents.1686388823.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.156101.0":
+    :sha1: 4d96261c0015962b55cec9707269b4f0792dc9ed
+    :commit_time: 
+    :last_modified: 1686550892.4985862
+  ".Trash-0/files/train 2/weights/last.pt":
+    :sha1: e43ccf94d36f08d90682072e60ab429242bf07f9
+    :commit_time: 
+    :last_modified: 1686550892.3865764
+  ".Trash-0/files/train 4/val_batch1_pred.jpg":
+    :sha1: 30b2833f9695d78a605637fcc4889594125b7497
+    :commit_time: 
+    :last_modified: 1686550892.5185878
+  ".Trash-0/files/train 4/val_batch0_pred.jpg":
+    :sha1: ff0c43b590ca3adf522df9a531a55057f38d1d76
+    :commit_time: 
+    :last_modified: 1686550892.5145876
+  ".Trash-0/files/train 4/confusion_matrix_normalized.png":
+    :sha1: 5db1977b5c7d0705f31abdb5d48504b9fec5a828
+    :commit_time: 
+    :last_modified: 1686550892.4985862
+  ".Trash-0/files/train 4/results.png":
+    :sha1: 949f733894362a009607d3ae5ca5c08497e183b6
+    :commit_time: 
+    :last_modified: 1686550892.5025866
+  ".Trash-0/files/train 4/weights/": 
+  ".Trash-0/files/train 4/args.yaml":
+    :sha1: e3c16930d0748d0c42ebab0ebb42b1546be75664
+    :commit_time: 
+    :last_modified: 1686550892.4985862
+  ".Trash-0/files/train 4/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.5025866
+  ".Trash-0/files/train 4/confusion_matrix.png":
+    :sha1: 4d64f1ce7b5fde4bc6947ba96c1d97708c1b0a3f
+    :commit_time: 
+    :last_modified: 1686550892.4985862
+  ".Trash-0/files/train 4/R_curve.png":
+    :sha1: 6b4422097cb6375ec6321a3085486b6a71936221
+    :commit_time: 
+    :last_modified: 1686550892.4985862
+  ".Trash-0/files/train 4/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.5185878
+  ".Trash-0/files/train 4/results.csv":
+    :sha1: 33825c09d4754b19bbf1bfc665f43123a8d924f6
+    :commit_time: 
+    :last_modified: 1686550892.5025866
+  ".Trash-0/files/train 4/val_batch2_pred.jpg":
+    :sha1: 0de0dc1bb9e2f709bae7c713a9d5f5e4bd31faf8
+    :commit_time: 
+    :last_modified: 1686550892.5265887
+  ".Trash-0/files/train 4/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.5225885
+  ".Trash-0/files/train 4/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.5065868
+  ".Trash-0/files/train 6/": 
+  ".Trash-0/files/train 6/F1_curve.png":
+    :sha1: 50c39856be2c4626c6cca605660a7feeaa67f6b4
+    :commit_time: 
+    :last_modified: 1686550892.5785933
+  ".Trash-0/files/train 6/events.out.tfevents.1686388823.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.156101.0":
+    :sha1: 4d96261c0015962b55cec9707269b4f0792dc9ed
+    :commit_time: 
+    :last_modified: 1686550892.5825934
+  ".Trash-0/files/train 6/val_batch0_pred.jpg":
+    :sha1: ff0c43b590ca3adf522df9a531a55057f38d1d76
+    :commit_time: 
+    :last_modified: 1686550892.598595
+  runs/detect/train_ori/events.out.tfevents.1686321982.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.268.0:
+    :sha1: 52cb1846ea0dab9af078c5311e8261e9bc05fe8d
+    :commit_time: 
+    :last_modified: 1686550893.5506778
+  ".Trash-0/files/train 4/P_curve.png":
+    :sha1: ae7e246f04b3285da06f3e6282ea663a6e0ea9bf
+    :commit_time: 
+    :last_modified: 1686550892.4985862
+  ".Trash-0/files/train 6/results.png":
+    :sha1: 949f733894362a009607d3ae5ca5c08497e183b6
+    :commit_time: 
+    :last_modified: 1686550892.5825934
+  ".Trash-0/files/train 4/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.5065868
+  ".Trash-0/files/train 4/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.5105872
+  ".Trash-0/files/train 6/confusion_matrix.png":
+    :sha1: 4d64f1ce7b5fde4bc6947ba96c1d97708c1b0a3f
+    :commit_time: 
+    :last_modified: 1686550892.5825934
+  ".Trash-0/files/train 4/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.4985862
+  ".Trash-0/files/train 6/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.5945945
+  ".Trash-0/files/train 6/val_batch1_pred.jpg":
+    :sha1: 30b2833f9695d78a605637fcc4889594125b7497
+    :commit_time: 
+    :last_modified: 1686550892.6025953
+  ".Trash-0/files/train 6/confusion_matrix_normalized.png":
+    :sha1: 5db1977b5c7d0705f31abdb5d48504b9fec5a828
+    :commit_time: 
+    :last_modified: 1686550892.5825934
+  ".Trash-0/files/train 4/PR_curve.png":
+    :sha1: e64075f0a4ed5baae8970c69c50d79c6dd72f50e
+    :commit_time: 
+    :last_modified: 1686550892.4945858
+  runs/detect/train/weights/last.pt:
+    :sha1: bfb7a130d0163b83a68fef8d385277d78dcb413e
+    :commit_time: 
+    :last_modified: 1686550893.5426772
+  ".Trash-0/files/train 6/args.yaml":
+    :sha1: e3c16930d0748d0c42ebab0ebb42b1546be75664
+    :commit_time: 
+    :last_modified: 1686550892.5785933
+  ".Trash-0/files/train 6/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.5825934
+  ".Trash-0/files/train 6/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.5945945
+  ".Trash-0/files/train 6/PR_curve.png":
+    :sha1: e64075f0a4ed5baae8970c69c50d79c6dd72f50e
+    :commit_time: 
+    :last_modified: 1686550892.5785933
+  ".Trash-0/files/train 6/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.5825934
+  ".Trash-0/files/train 6/weights/": 
+  ".Trash-0/files/train 6/P_curve.png":
+    :sha1: ae7e246f04b3285da06f3e6282ea663a6e0ea9bf
+    :commit_time: 
+    :last_modified: 1686550892.5785933
+  ".Trash-0/files/car_test_1.jpg":
+    :sha1: 7e10a800bb7209091c74b88004f54311869dcfda
+    :commit_time: 
+    :last_modified: 1686550892.058548
+  runs/detect/train_ori/weights/best.pt:
+    :sha1: '08913968f8132dd5d1b5421a1586e937f9bde23e'
+    :commit_time: 
+    :last_modified: 1686550893.6106832
+  ".Trash-0/files/train 6/R_curve.png":
+    :sha1: 6b4422097cb6375ec6321a3085486b6a71936221
+    :commit_time: 
+    :last_modified: 1686550892.5785933
+  ".Trash-0/files/train 6/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.598595
+  ".Trash-0/files/train/": 
+  ".Trash-0/files/train 6/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.5865939
+  ".Trash-0/files/train 6/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.5905943
+  ".Trash-0/files/train/confusion_matrix.png":
+    :sha1: aa2df158c44b5b1043d7c65118268c1c0d3cf000
+    :commit_time: 
+    :last_modified: 1686550892.6305976
+  ".Trash-0/files/train 6/results.csv":
+    :sha1: 33825c09d4754b19bbf1bfc665f43123a8d924f6
+    :commit_time: 
+    :last_modified: 1686550892.5825934
+  ".Trash-0/files/train/confusion_matrix_normalized.png":
+    :sha1: 91bf7d5269cf4bed202499ac3f054bfecedb392b
+    :commit_time: 
+    :last_modified: 1686550892.6345983
+  ".Trash-0/files/train/F1_curve.png":
+    :sha1: 0f66285169034fbdc53e162490b982687c140392
+    :commit_time: 
+    :last_modified: 1686550892.6305976
+  ".Trash-0/files/train/val_batch0_pred.jpg":
+    :sha1: 49be5e6f8f83113f2a73e05ec447d5ea8717ea6c
+    :commit_time: 
+    :last_modified: 1686550892.7626092
+  ".Trash-0/files/train/P_curve.png":
+    :sha1: 22812a151b74e3738e10d87d4ae324ce47d46396
+    :commit_time: 
+    :last_modified: 1686550892.6305976
+  ".Trash-0/files/train/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.7626092
+  ".Trash-0/files/train/val_batch1_pred.jpg":
+    :sha1: 460d8c5f6260feac3645463f5a17167e11796ef8
+    :commit_time: 
+    :last_modified: 1686550892.7666097
+  ".Trash-0/files/train/PR_curve.png":
+    :sha1: d452fbc96c62ac305fecd878019922c037d79b71
+    :commit_time: 
+    :last_modified: 1686550892.6305976
+  ".Trash-0/files/train/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.7546084
+  ".Trash-0/files/train 6/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.6065955
+  ".Trash-0/files/train/train/": 
+  ".Trash-0/files/train 6/val_batch2_pred.jpg":
+    :sha1: 0de0dc1bb9e2f709bae7c713a9d5f5e4bd31faf8
+    :commit_time: 
+    :last_modified: 1686550892.610596
+  ".Trash-0/files/train/args.yaml":
+    :sha1: 987e96a7521e35f1e0847a8d61c918c35830669f
+    :commit_time: 
+    :last_modified: 1686550892.6305976
+  ".Trash-0/files/train/train/F1_curve.png":
+    :sha1: 0f66285169034fbdc53e162490b982687c140392
+    :commit_time: 
+    :last_modified: 1686550892.6385984
+  ".Trash-0/files/train/train/val_batch0_pred.jpg":
+    :sha1: 49be5e6f8f83113f2a73e05ec447d5ea8717ea6c
+    :commit_time: 
+    :last_modified: 1686550892.6586
+  ".Trash-0/files/train/train/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.6586
+  ".Trash-0/files/train/events.out.tfevents.1686321982.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.268.0":
+    :sha1: 52cb1846ea0dab9af078c5311e8261e9bc05fe8d
+    :commit_time: 
+    :last_modified: 1686550892.6345983
+  ".Trash-0/files/train/train/args.yaml":
+    :sha1: 987e96a7521e35f1e0847a8d61c918c35830669f
+    :commit_time: 
+    :last_modified: 1686550892.6425986
+  ".Trash-0/files/train/train/PR_curve.png":
+    :sha1: d452fbc96c62ac305fecd878019922c037d79b71
+    :commit_time: 
+    :last_modified: 1686550892.6385984
+  ".Trash-0/files/train 6/weights/best.pt":
+    :sha1: 7dc639beb5a995ed1c32002c9aeb747c6667f8a2
+    :commit_time: 
+    :last_modified: 1686550892.6185966
+  ".Trash-0/files/train/train/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.646599
+  ".Trash-0/files/train/train/confusion_matrix_normalized.png":
+    :sha1: 91bf7d5269cf4bed202499ac3f054bfecedb392b
+    :commit_time: 
+    :last_modified: 1686550892.6425986
+  ".Trash-0/files/train/train/confusion_matrix.png":
+    :sha1: aa2df158c44b5b1043d7c65118268c1c0d3cf000
+    :commit_time: 
+    :last_modified: 1686550892.6425986
+  ".Trash-0/files/train/train/weights/": 
+  ".Trash-0/files/train/train/val_batch1_pred.jpg":
+    :sha1: 460d8c5f6260feac3645463f5a17167e11796ef8
+    :commit_time: 
+    :last_modified: 1686550892.6626005
+  ".Trash-0/files/train/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.6385984
+  ".Trash-0/files/train/train/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.6505995
+  ".Trash-0/files/train/train/P_curve.png":
+    :sha1: 22812a151b74e3738e10d87d4ae324ce47d46396
+    :commit_time: 
+    :last_modified: 1686550892.6425986
+  ".Trash-0/files/train/train/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.6545997
+  ".Trash-0/files/train/train/results.csv":
+    :sha1: be2f1a8c1f1906de2ce65f180d2efa894f4cde33
+    :commit_time: 
+    :last_modified: 1686550892.646599
+  ".Trash-0/files/train/train/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.646599
+  ".Trash-0/files/train/train/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.6545997
+  ".Trash-0/files/train/weights/": 
+  ".Trash-0/files/train 6/weights/last.pt":
+    :sha1: 1824464b4a71fef802b06119727134fc8e4237b1
+    :commit_time: 
+    :last_modified: 1686550892.6225972
+  ".Trash-0/files/train/train/events.out.tfevents.1686321982.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.268.0":
+    :sha1: 52cb1846ea0dab9af078c5311e8261e9bc05fe8d
+    :commit_time: 
+    :last_modified: 1686550892.646599
+  ".Trash-0/files/train/train/R_curve.png":
+    :sha1: 908cbc8e3ee2585cdf78d2886ade32b6ab133618
+    :commit_time: 
+    :last_modified: 1686550892.6425986
+  ".Trash-0/files/train/train/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.6626005
+  ".Trash-0/files/train 4/weights/best.pt":
+    :sha1: 7dc639beb5a995ed1c32002c9aeb747c6667f8a2
+    :commit_time: 
+    :last_modified: 1686550892.5305889
+  ".Trash-0/files/train/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.7586088
+  ".Trash-0/files/train/train/weights/last.pt":
+    :sha1: e43ccf94d36f08d90682072e60ab429242bf07f9
+    :commit_time: 
+    :last_modified: 1686550892.7506082
+  ".Trash-0/files/train/val_batch2_pred.jpg":
+    :sha1: 428e9fef20c52f27bd8be1eab1714c92fa4d14ef
+    :commit_time: 
+    :last_modified: 1686550892.7746103
+  ".Trash-0/files/train/results.csv":
+    :sha1: be2f1a8c1f1906de2ce65f180d2efa894f4cde33
+    :commit_time: 
+    :last_modified: 1686550892.6385984
+  ".Trash-0/files/train/R_curve.png":
+    :sha1: 908cbc8e3ee2585cdf78d2886ade32b6ab133618
+    :commit_time: 
+    :last_modified: 1686550892.6305976
+  ".Trash-0/files/train 5/": 
+  ".Trash-0/files/train/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.7586088
+  ".Trash-0/files/train/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.7706099
+  ".Trash-0/files/train/train/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.666601
+  ".Trash-0/files/train/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.7666097
+  ".Trash-0/files/train/train/val_batch2_pred.jpg":
+    :sha1: 428e9fef20c52f27bd8be1eab1714c92fa4d14ef
+    :commit_time: 
+    :last_modified: 1686550892.6706011
+  ".Trash-0/files/train 4/weights/last.pt":
+    :sha1: 1824464b4a71fef802b06119727134fc8e4237b1
+    :commit_time: 
+    :last_modified: 1686550892.5385897
+  ".Trash-0/files/train 5/F1_curve.png":
+    :sha1: 50c39856be2c4626c6cca605660a7feeaa67f6b4
+    :commit_time: 
+    :last_modified: 1686550892.5385897
+  ".Trash-0/files/train/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.6385984
+  ".Trash-0/files/train 5/events.out.tfevents.1686388823.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.156101.0":
+    :sha1: 4d96261c0015962b55cec9707269b4f0792dc9ed
+    :commit_time: 
+    :last_modified: 1686550892.54259
+  ".Trash-0/files/train 5/results.png":
+    :sha1: 949f733894362a009607d3ae5ca5c08497e183b6
+    :commit_time: 
+    :last_modified: 1686550892.54259
+  ".Trash-0/files/train 5/args.yaml":
+    :sha1: e3c16930d0748d0c42ebab0ebb42b1546be75664
+    :commit_time: 
+    :last_modified: 1686550892.5385897
+  ".Trash-0/files/train 5/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.554591
+  ".Trash-0/files/train 5/confusion_matrix_normalized.png":
+    :sha1: 5db1977b5c7d0705f31abdb5d48504b9fec5a828
+    :commit_time: 
+    :last_modified: 1686550892.54259
+  output/train/weights/best.pt:
+    :sha1: 15c2809419235ad093229fcc506455d62bb073b0
+    :commit_time: 
+    :last_modified: 1686550893.094638
+  ".Trash-0/files/train 5/weights/": 
+  ".Trash-0/files/train 5/val_batch1_pred.jpg":
+    :sha1: 30b2833f9695d78a605637fcc4889594125b7497
+    :commit_time: 
+    :last_modified: 1686550892.5625918
+  ".Trash-0/files/train 5/PR_curve.png":
+    :sha1: e64075f0a4ed5baae8970c69c50d79c6dd72f50e
+    :commit_time: 
+    :last_modified: 1686550892.5385897
+  ".Trash-0/files/train 5/confusion_matrix.png":
+    :sha1: 4d64f1ce7b5fde4bc6947ba96c1d97708c1b0a3f
+    :commit_time: 
+    :last_modified: 1686550892.5385897
+  ".Trash-0/files/train/train/weights/best.pt":
+    :sha1: '08913968f8132dd5d1b5421a1586e937f9bde23e'
+    :commit_time: 
+    :last_modified: 1686550892.7106044
+  ".Trash-0/files/train 5/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.54259
+  ".Trash-0/files/train 5/P_curve.png":
+    :sha1: ae7e246f04b3285da06f3e6282ea663a6e0ea9bf
+    :commit_time: 
+    :last_modified: 1686550892.5385897
+  ".Trash-0/files/train 5/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.5585916
+  ".Trash-0/files/train 5/val_batch0_pred.jpg":
+    :sha1: ff0c43b590ca3adf522df9a531a55057f38d1d76
+    :commit_time: 
+    :last_modified: 1686550892.5585916
+  ".Trash-0/files/cnvrgpredict.ipynb":
+    :sha1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+    :commit_time: 
+    :last_modified: 1686550892.058548
+  ".Trash-0/files/train 5/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.5465906
+  ".Trash-0/files/train 3/": 
+  ".Trash-0/files/train 5/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.54259
+  ".Trash-0/files/train 5/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.554591
+  ".Trash-0/files/train 5/results.csv":
+    :sha1: 33825c09d4754b19bbf1bfc665f43123a8d924f6
+    :commit_time: 
+    :last_modified: 1686550892.54259
+  ".Trash-0/files/train 5/R_curve.png":
+    :sha1: 6b4422097cb6375ec6321a3085486b6a71936221
+    :commit_time: 
+    :last_modified: 1686550892.5385897
+  ".Trash-0/files/train 3/events.out.tfevents.1686388823.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.156101.0":
+    :sha1: 4d96261c0015962b55cec9707269b4f0792dc9ed
+    :commit_time: 
+    :last_modified: 1686550892.3905768
+  ".Trash-0/files/train 3/val_batch1_pred.jpg":
+    :sha1: 30b2833f9695d78a605637fcc4889594125b7497
+    :commit_time: 
+    :last_modified: 1686550892.4105785
+  ".Trash-0/files/train 3/val_batch0_pred.jpg":
+    :sha1: ff0c43b590ca3adf522df9a531a55057f38d1d76
+    :commit_time: 
+    :last_modified: 1686550892.406578
+  ".Trash-0/files/01.jpg":
+    :sha1: 9db3cd098432feda74978ed93917daa463ba6d64
+    :commit_time: 
+    :last_modified: 1686550892.0545475
+  ".Trash-0/files/train 3/F1_curve.png":
+    :sha1: 50c39856be2c4626c6cca605660a7feeaa67f6b4
+    :commit_time: 
+    :last_modified: 1686550892.3865764
+  ".Trash-0/files/train 3/results.png":
+    :sha1: 949f733894362a009607d3ae5ca5c08497e183b6
+    :commit_time: 
+    :last_modified: 1686550892.3945773
+  ".Trash-0/files/train 5/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.5625918
+  ".Trash-0/files/train 3/args.yaml":
+    :sha1: e3c16930d0748d0c42ebab0ebb42b1546be75664
+    :commit_time: 
+    :last_modified: 1686550892.3865764
+  ".Trash-0/files/train 3/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.3945773
+  ".Trash-0/files/train 5/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.5505908
+  ".Trash-0/files/train 3/confusion_matrix.png":
+    :sha1: 4d64f1ce7b5fde4bc6947ba96c1d97708c1b0a3f
+    :commit_time: 
+    :last_modified: 1686550892.3905768
+  ".Trash-0/files/train 3/PR_curve.png":
+    :sha1: e64075f0a4ed5baae8970c69c50d79c6dd72f50e
+    :commit_time: 
+    :last_modified: 1686550892.3865764
+  ".Trash-0/files/train 3/weights/": 
+  ".Trash-0/files/train 3/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.4025779
+  ".Trash-0/files/train 3/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.4025779
+  ".Trash-0/files/train 5/val_batch2_pred.jpg":
+    :sha1: 0de0dc1bb9e2f709bae7c713a9d5f5e4bd31faf8
+    :commit_time: 
+    :last_modified: 1686550892.566592
+  ".Trash-0/files/train 3/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.3905768
+  ".Trash-0/files/train 3/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.4105785
+  ".Trash-0/files/train 3/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.3905768
+  ".Trash-0/files/train 3/P_curve.png":
+    :sha1: ae7e246f04b3285da06f3e6282ea663a6e0ea9bf
+    :commit_time: 
+    :last_modified: 1686550892.3865764
+  ".Trash-0/files/train 3/R_curve.png":
+    :sha1: 6b4422097cb6375ec6321a3085486b6a71936221
+    :commit_time: 
+    :last_modified: 1686550892.3865764
+  ".Trash-0/files/train 3/results.csv":
+    :sha1: 33825c09d4754b19bbf1bfc665f43123a8d924f6
+    :commit_time: 
+    :last_modified: 1686550892.3905768
+  ".Trash-0/files/train 7/": 
+  ".Trash-0/files/train 7/args.yaml":
+    :sha1: 44b6fa283978d373aebe75daae17d2c0e7729776
+    :commit_time: 
+    :last_modified: 1686550892.6225972
+  ".Trash-0/files/train 7/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.6265974
+  ".Trash-0/files/train 7/events.out.tfevents.1686502591.cnvrg-job-experiment-y55rryvtnhdm9jy7ojrc-1-99d498757-zrv8j.282.0":
+    :sha1: bc8ff4c52615946b1c1521de98638b085ad71807
+    :commit_time: 
+    :last_modified: 1686550892.6225972
+  ".Trash-0/files/train/weights/best.pt":
+    :sha1: '08913968f8132dd5d1b5421a1586e937f9bde23e'
+    :commit_time: 
+    :last_modified: 1686550892.8106134
+  ".Trash-0/files/train 3/confusion_matrix_normalized.png":
+    :sha1: 5db1977b5c7d0705f31abdb5d48504b9fec5a828
+    :commit_time: 
+    :last_modified: 1686550892.3905768
+  ".Trash-0/files/sg-toyota.jpg":
+    :sha1: d0cebff845118929bf72cbf0ea8adba2098eddc4
+    :commit_time: 
+    :last_modified: 1686550892.058548
+  ".Trash-0/files/train 1/": 
+  output/train/weights/last.pt:
+    :sha1: bfb7a130d0163b83a68fef8d385277d78dcb413e
+    :commit_time: 
+    :last_modified: 1686550893.2426512
+  ".Trash-0/files/train 7/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.6265974
+  ".Trash-0/files/train/weights/last.pt":
+    :sha1: e43ccf94d36f08d90682072e60ab429242bf07f9
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  runs/detect/train/weights/best.pt:
+    :sha1: 15c2809419235ad093229fcc506455d62bb073b0
+    :commit_time: 
+    :last_modified: 1686550893.414666
+  ".Trash-0/files/train 3/val_batch2_pred.jpg":
+    :sha1: 0de0dc1bb9e2f709bae7c713a9d5f5e4bd31faf8
+    :commit_time: 
+    :last_modified: 1686550892.418579
+  ".Trash-0/files/train 1/confusion_matrix.png":
+    :sha1: aa2df158c44b5b1043d7c65118268c1c0d3cf000
+    :commit_time: 
+    :last_modified: 1686550892.0625482
+  ".Trash-0/files/train 3/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.3985775
+  ".Trash-0/files/train 1/F1_curve.png":
+    :sha1: 0f66285169034fbdc53e162490b982687c140392
+    :commit_time: 
+    :last_modified: 1686550892.058548
+  ".Trash-0/files/train 1/PR_curve.png":
+    :sha1: d452fbc96c62ac305fecd878019922c037d79b71
+    :commit_time: 
+    :last_modified: 1686550892.058548
+  ".Trash-0/files/train 1/val_batch1_pred.jpg":
+    :sha1: 460d8c5f6260feac3645463f5a17167e11796ef8
+    :commit_time: 
+    :last_modified: 1686550892.2025604
+  ".Trash-0/files/train 1/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.1945598
+  ".Trash-0/files/train 7/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.6305976
+  ".Trash-0/files/train 1/val_batch0_pred.jpg":
+    :sha1: 49be5e6f8f83113f2a73e05ec447d5ea8717ea6c
+    :commit_time: 
+    :last_modified: 1686550892.19856
+  ".Trash-0/files/train 1/events.out.tfevents.1686321982.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.268.0":
+    :sha1: 52cb1846ea0dab9af078c5311e8261e9bc05fe8d
+    :commit_time: 
+    :last_modified: 1686550892.0665486
+  ".Trash-0/files/train 1/train/": 
+  ".Trash-0/files/train 1/train/confusion_matrix.png":
+    :sha1: aa2df158c44b5b1043d7c65118268c1c0d3cf000
+    :commit_time: 
+    :last_modified: 1686550892.070549
+  ".Trash-0/files/train 1/args.yaml":
+    :sha1: 987e96a7521e35f1e0847a8d61c918c35830669f
+    :commit_time: 
+    :last_modified: 1686550892.0625482
+  ".Trash-0/files/train 1/confusion_matrix_normalized.png":
+    :sha1: 91bf7d5269cf4bed202499ac3f054bfecedb392b
+    :commit_time: 
+    :last_modified: 1686550892.0625482
+  ".Trash-0/files/train 1/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.186559
+  ".Trash-0/files/train 1/train/val_batch0_pred.jpg":
+    :sha1: 49be5e6f8f83113f2a73e05ec447d5ea8717ea6c
+    :commit_time: 
+    :last_modified: 1686550892.0905504
+  ".Trash-0/files/train 5/weights/last.pt":
+    :sha1: 1824464b4a71fef802b06119727134fc8e4237b1
+    :commit_time: 
+    :last_modified: 1686550892.5785933
+  ".Trash-0/files/train 3/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.414579
+  ".Trash-0/files/train 1/train/val_batch0_labels.jpg":
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: 
+    :last_modified: 1686550892.0865502
+  ".Trash-0/files/train 1/train/F1_curve.png":
+    :sha1: 0f66285169034fbdc53e162490b982687c140392
+    :commit_time: 
+    :last_modified: 1686550892.0665486
+  ".Trash-0/files/train 1/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.0665486
+  ".Trash-0/files/train 1/P_curve.png":
+    :sha1: 22812a151b74e3738e10d87d4ae324ce47d46396
+    :commit_time: 
+    :last_modified: 1686550892.058548
+  ".Trash-0/files/train 1/train/weights/": 
+  ".Trash-0/files/train 1/train/P_curve.png":
+    :sha1: 22812a151b74e3738e10d87d4ae324ce47d46396
+    :commit_time: 
+    :last_modified: 1686550892.070549
+  ".Trash-0/files/train 1/train/confusion_matrix_normalized.png":
+    :sha1: 91bf7d5269cf4bed202499ac3f054bfecedb392b
+    :commit_time: 
+    :last_modified: 1686550892.070549
+  ".Trash-0/files/train 1/train/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.0745492
+  ".Trash-0/files/train 1/train/PR_curve.png":
+    :sha1: d452fbc96c62ac305fecd878019922c037d79b71
+    :commit_time: 
+    :last_modified: 1686550892.070549
+  ".Trash-0/files/train 1/train/args.yaml":
+    :sha1: 987e96a7521e35f1e0847a8d61c918c35830669f
+    :commit_time: 
+    :last_modified: 1686550892.070549
+  ".Trash-0/files/train 3/weights/last.pt":
+    :sha1: 1824464b4a71fef802b06119727134fc8e4237b1
+    :commit_time: 
+    :last_modified: 1686550892.4945858
+  ".Trash-0/files/train 1/train/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.0865502
+  ".Trash-0/files/train 1/train/val_batch1_pred.jpg":
+    :sha1: 460d8c5f6260feac3645463f5a17167e11796ef8
+    :commit_time: 
+    :last_modified: 1686550892.094551
+  ".Trash-0/files/train 1/train/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.0985513
+  ".Trash-0/files/train 1/train/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.08255
+  ".Trash-0/files/train 1/train/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.094551
+  ".Trash-0/files/train 1/weights/": 
+  ".Trash-0/files/train 1/train/results.csv":
+    :sha1: be2f1a8c1f1906de2ce65f180d2efa894f4cde33
+    :commit_time: 
+    :last_modified: 1686550892.0745492
+  ".Trash-0/files/train 1/train/val_batch2_pred.jpg":
+    :sha1: 428e9fef20c52f27bd8be1eab1714c92fa4d14ef
+    :commit_time: 
+    :last_modified: 1686550892.0985513
+  ".Trash-0/files/train 1/weights/last.pt":
+    :sha1: e43ccf94d36f08d90682072e60ab429242bf07f9
+    :commit_time: 
+    :last_modified: 1686550892.2825675
+  ".Trash-0/files/train 1/train/labels_correlogram.jpg":
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: 
+    :last_modified: 1686550892.0745492
+  ".Trash-0/files/train 3/weights/best.pt":
+    :sha1: 7dc639beb5a995ed1c32002c9aeb747c6667f8a2
+    :commit_time: 
+    :last_modified: 1686550892.4545822
+  ".Trash-0/files/train 1/train/R_curve.png":
+    :sha1: 908cbc8e3ee2585cdf78d2886ade32b6ab133618
+    :commit_time: 
+    :last_modified: 1686550892.070549
+  ".Trash-0/files/train 1/train/train_batch0.jpg":
+    :sha1: 3f32d482f0bb33bcbebe5429ef8c55fc3342e6d0
+    :commit_time: 
+    :last_modified: 1686550892.0785494
+  ".Trash-0/files/train 1/train_batch2.jpg":
+    :sha1: c139618207ee7f25fdaa0df3d446b03116b98e6a
+    :commit_time: 
+    :last_modified: 1686550892.1945598
+  ".Trash-0/files/train 1/results.csv":
+    :sha1: be2f1a8c1f1906de2ce65f180d2efa894f4cde33
+    :commit_time: 
+    :last_modified: 1686550892.0665486
+  ".Trash-0/info/": 
+  ".Trash-0/info/train.trashinfo":
+    :sha1: 41ae136cb1d308d8e1ba88e49c80ccc2424fddb5
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/files/train 1/val_batch1_labels.jpg":
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: 
+    :last_modified: 1686550892.19856
+  ".Trash-0/info/sg-toyota.jpg.trashinfo":
+    :sha1: cf868b8a75a6f3d87c794f427a132364a74872bd
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/train 1.trashinfo":
+    :sha1: c23994ce55f27cc42eac9a1fd7a8451e00ff4d0f
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/train 2.trashinfo":
+    :sha1: 8044bc63cb9adebb20b776620dfa22a0fee34e6b
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/train 7.trashinfo":
+    :sha1: 26d5dd8ab8f13f9c670dd0fb19410961ba86a25f
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/cnvrgpredict.ipynb.trashinfo":
+    :sha1: c4a38c8f901879e9534f77da5b900357484859da
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/car_test_1.jpg.trashinfo":
+    :sha1: 724e0aaffa70f326f8620ca8f13fa9ba76a395b9
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/files/train 1/R_curve.png":
+    :sha1: 908cbc8e3ee2585cdf78d2886ade32b6ab133618
+    :commit_time: 
+    :last_modified: 1686550892.0625482
+  ".Trash-0/info/train 5.trashinfo":
+    :sha1: 23a7a6d6212cb1346a61e4580ffda35b652894d6
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/train 6.trashinfo":
+    :sha1: 9fa1bddc03f1c1288aa44f719df1f388a6d72222
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/train 3.trashinfo":
+    :sha1: 0c4f9f387b165608362b2dde241aadd81cd9e5c5
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/info/train 4.trashinfo":
+    :sha1: 2f123bb88470d7277fcfe129b009a0a63585b4f9
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/files/train 1/val_batch2_pred.jpg":
+    :sha1: 428e9fef20c52f27bd8be1eab1714c92fa4d14ef
+    :commit_time: 
+    :last_modified: 1686550892.2065609
+  ".Trash-0/files/train 1/train/weights/best.pt":
+    :sha1: '08913968f8132dd5d1b5421a1586e937f9bde23e'
+    :commit_time: 
+    :last_modified: 1686550892.1385548
+  ".Trash-0/info/01.jpg.trashinfo":
+    :sha1: bbf405134d1a97be9b01d8ccd685ba975925f1c7
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/files/train 1/train_batch1.jpg":
+    :sha1: 4a9abd4ef8d62a1759009c286c2a64afbdfad576
+    :commit_time: 
+    :last_modified: 1686550892.1905594
+  ".Trash-0/files/train 1/weights/best.pt":
+    :sha1: '08913968f8132dd5d1b5421a1586e937f9bde23e'
+    :commit_time: 
+    :last_modified: 1686550892.2425637
+  ".Trash-0/files/train 1/val_batch2_labels.jpg":
+    :sha1: c22ee80646d7cbca7f5dc2cd2cc4151a83388340
+    :commit_time: 
+    :last_modified: 1686550892.2065609
+  LICENSE:
+    :sha1: 7c841ba616015dabc63b8a8fbbaa5bee6569bdde
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  lpd.yaml:
+    :sha1: 1b505b7225161427cebce33ccefc3ec171b4a136
+    :commit_time: 
+    :last_modified: 1686550892.8906205
+  tutorial.ipynb:
+    :sha1: 2c67dca71256804cf820b2c983006f2f65a38d30
+    :commit_time: 
+    :last_modified: 1686550893.6866899
+  ".cnvrgignore":
+    :sha1: 99823fc2a8f6ea8992fcace85d0e8ca21194d54b
+    :commit_time: 
+    :last_modified: 1686550892.850617
+  ".Trash-0/files/train 1/labels.jpg":
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: 
+    :last_modified: 1686550892.0665486
+  ".Trash-0/files/train 5/weights/best.pt":
+    :sha1: 7dc639beb5a995ed1c32002c9aeb747c6667f8a2
+    :commit_time: 
+    :last_modified: 1686550892.5705924
+  ? ".Trash-0/files/train 1/train/events.out.tfevents.1686321982.cnvrg-job-notebooksession-ztheyz9ruvitxqaaiwye-4-786c7945d5xwfl.268.0"
+  : :sha1: 52cb1846ea0dab9af078c5311e8261e9bc05fe8d
+    :commit_time: 
+    :last_modified: 1686550892.0745492
+  ".Trash-0/files/train 1/train/weights/last.pt":
+    :sha1: e43ccf94d36f08d90682072e60ab429242bf07f9
+    :commit_time: 
+    :last_modified: 1686550892.1825588
+  yolov8s.pt:
+    :sha1: 4e90095d134430e341d31836df46f81814d383df
+    :commit_time: 
+    :last_modified: 1686550893.8667054
 :commit: 5e06d22c8893e27d5a7243bd185faa94cc593072

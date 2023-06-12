@@ -1,6 +1,5 @@
 ---
-:project_name: LPD-YOLOv8
+:project_name: lpd-yolov8
 :project_slug: lpd-yolov8
 :owner: cnasg
 :git: true
-:is_git: true
