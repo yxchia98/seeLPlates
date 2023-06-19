@@ -31,8 +31,9 @@ model = YOLO(input_model)  # load a pretrained model (recommended for training)
 # device = os.environ.get('device') if os.environ.get('device') else 'cpu'
 epochs = 100
 device = '0'
+batch_size = 12
 # Train the model
-model.train(data='lpd.yaml', epochs=epochs, imgsz=640, device=device)
+model.train(data='lpd.yaml', epochs=epochs, imgsz=640, batch=batch_size, device=device)
 
 # Source path 
 src = '/cnvrg/runs/detect/train'
