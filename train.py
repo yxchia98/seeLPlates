@@ -8,6 +8,8 @@ from io import BytesIO
 import cv2
 from matplotlib import pyplot as plt
 import os
+import subprocess
+
 
 ultralytics.checks()
 
@@ -38,3 +40,9 @@ src = '/cnvrg/runs/detect/train'
 dest = '/cnvrg/output/train'
 # Copy the content of source to destination 
 destination = shutil.copytree(src, dest) 
+
+subprocess.run(["pwd"])
+subprocess.run(["git", "status"])
+subprocess.run(["git", "add", "."])
+subprocess.run(["git", "commit", "-m", "'experiment commit'"])
+subprocess.run(["git", "push", "origin", "main"])
