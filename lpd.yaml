@@ -1,6 +1,6 @@
-train: /data/license-plate/train/images/
-test: /data/license-plate/test/images/
-val: /data/license-plate/validation/images/
+train: /data/darknet-license-plate/train/images/
+test: /data/darknet-license-plate/test/images/
+val: /data/darknet-license-plate/validation/images/
 
 nc: 1
 names: ['License Plate']
