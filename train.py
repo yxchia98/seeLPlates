@@ -29,11 +29,18 @@ model = YOLO(input_model)  # load a pretrained model (recommended for training)
 # model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # build from YAML and transfer weights
 # epochs = os.environ.get('epochs') if os.environ.get('epochs') else 100
 # device = os.environ.get('device') if os.environ.get('device') else 'cpu'
-epochs = 100
+epochs = 1
 device = '0'
 batch_size = 12
 # Train the model
 model.train(data='lpd.yaml', epochs=epochs, imgsz=640, batch=batch_size, device=device)
+
+# Commit to Git
+subprocess.run(["pwd"])
+subprocess.run(["git", "status"])
+subprocess.run(["git", "add", "."])
+subprocess.run(["git", "commit", "-m", "'experiment commit'"])
+subprocess.run(["git", "push", "origin", "main"])
 
 # Source path 
 src = '/cnvrg/runs/detect/train'
@@ -41,9 +48,3 @@ src = '/cnvrg/runs/detect/train'
 dest = '/cnvrg/output/train'
 # Copy the content of source to destination 
 destination = shutil.copytree(src, dest) 
-
-subprocess.run(["pwd"])
-subprocess.run(["git", "status"])
-subprocess.run(["git", "add", "."])
-subprocess.run(["git", "commit", "-m", "'experiment commit'"])
-subprocess.run(["git", "push", "origin", "main"])

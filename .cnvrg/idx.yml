@@ -1,92 +1,59 @@
 ---
 :tree:
   output/train/: 
-  output/train/val_batch1_pred.jpg:
-    :sha1: cee4c3c4c211b383c8d8e8836a7486de6f1b87d1
-    :commit_time: 
-    :last_modified: 1687185390.4074838
-  output/train/val_batch2_pred.jpg:
-    :sha1: a1d94e03da05a2edbeaddccc739d4f4007472f6b
-    :commit_time: 
-    :last_modified: 1687185390.4114842
   output/train/train_batch2.jpg:
     :sha1: dfd80a24c55294b1847373844535089fe51a697b
-    :commit_time: 
+    :commit_time: '2023-06-20T01:57:08.165Z'
     :last_modified: 1687185390.3994832
-  output/train/val_batch1_labels.jpg:
-    :sha1: 9caa7f0b7baa74e464940d667f4140b7cec3093c
-    :commit_time: 
-    :last_modified: 1687185390.4034834
-  output/train/confusion_matrix_normalized.png:
-    :sha1: '069c8ea557964b5cffab0b313f790ff82f56ab00'
-    :commit_time: 
-    :last_modified: 1687185390.3834815
   output/train/args.yaml:
     :sha1: 714cb5e15a6cd2ec85b168a0da65e9e0be9c227d
-    :commit_time: 
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3834815
+  output/train/labels.jpg:
+    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3874822
+  output/train/val_batch0_labels.jpg:
+    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3994832
+  output/train/train_batch0.jpg:
+    :sha1: d0417cb84a36fac5fe3fd5859e7651529651e99f
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3954825
+  output/train/labels_correlogram.jpg:
+    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3914824
+  output/train/R_curve.png:
+    :sha1: ee654de7c68d4db7fe07a9eecdc57a564734bef7
+    :commit_time: '2023-06-20T01:57:08.165Z'
     :last_modified: 1687185390.3834815
   output/train/val_batch0_pred.jpg:
     :sha1: 892c74dbea8fe79578d1133799d6e921786f69ee
-    :commit_time: 
+    :commit_time: '2023-06-20T01:57:08.165Z'
     :last_modified: 1687185390.4034834
+  output/train/val_batch1_labels.jpg:
+    :sha1: 9caa7f0b7baa74e464940d667f4140b7cec3093c
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.4034834
+  output/train/confusion_matrix.png:
+    :sha1: 7ef63e32b7706fc14abbbd2d8a0096e08cad7cf3
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3834815
   output/train/P_curve.png:
     :sha1: dcd704fa01a0c18d965ca5a3ae76148c7c39ef2f
-    :commit_time: 
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3834815
+  output/train/confusion_matrix_normalized.png:
+    :sha1: '069c8ea557964b5cffab0b313f790ff82f56ab00'
+    :commit_time: '2023-06-20T01:57:08.165Z'
     :last_modified: 1687185390.3834815
   output/train/events.out.tfevents.1686502777.cnvrg-job-experiment-y55rryvtnhdm9jy7ojrc-1-99d498757-zrv8j.820.0:
     :sha1: afe7a4873ef2a785b06ca2eab9662ca556062287
     :commit_time: 
     :last_modified: 1687185390.3874822
-  output/train/results.csv:
-    :sha1: 744cfc5384588bd1edd73643f46c3ccecf3777b3
-    :commit_time: 
-    :last_modified: 1687185390.3914824
-  output/train/R_curve.png:
-    :sha1: ee654de7c68d4db7fe07a9eecdc57a564734bef7
-    :commit_time: 
-    :last_modified: 1687185390.3834815
-  output/train/confusion_matrix.png:
-    :sha1: 7ef63e32b7706fc14abbbd2d8a0096e08cad7cf3
-    :commit_time: 
-    :last_modified: 1687185390.3834815
-  output/train/PR_curve.png:
-    :sha1: f9624f42ea106d29ea7345e5c491b9e9ba7554a5
-    :commit_time: 
-    :last_modified: 1687185390.3794813
-  output/train/results.png:
-    :sha1: 93e0f63a0fd6db7287837bcbafe078dd01617618
-    :commit_time: 
-    :last_modified: 1687185390.3914824
-  output/train/val_batch2_labels.jpg:
-    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
-    :commit_time: 
-    :last_modified: 1687185390.4114842
-  output/train/F1_curve.png:
-    :sha1: 119ee711c66659091e859180c98684820a8ac65b
-    :commit_time: 
-    :last_modified: 1687185390.3794813
-  output/train/train_batch0.jpg:
-    :sha1: d0417cb84a36fac5fe3fd5859e7651529651e99f
-    :commit_time: 
-    :last_modified: 1687185390.3954825
   output/train/weights/: 
-  output/train/labels.jpg:
-    :sha1: e29d195b7bce1c3e15f23b43bc6563d20251ebfd
-    :commit_time: 
-    :last_modified: 1687185390.3874822
-  output/train/labels_correlogram.jpg:
-    :sha1: 7aea11d37d9a38c998e16c53bbf158b0071f2935
-    :commit_time: 
-    :last_modified: 1687185390.3914824
-  output/train/train_batch1.jpg:
-    :sha1: a0fe3344a3ae49b8951b6af1905acc28d06e9afd
-    :commit_time: 
-    :last_modified: 1687185390.3954825
-  output/: 
-  output/train/val_batch0_labels.jpg:
-    :sha1: 6ef43dc3eb920a930a557c8ef75c7a073089e711
-    :commit_time: 
-    :last_modified: 1687185390.3994832
   output/train/weights/best.pt:
     :sha1: 15c2809419235ad093229fcc506455d62bb073b0
     :commit_time: 
@@ -95,4 +62,37 @@
     :sha1: bfb7a130d0163b83a68fef8d385277d78dcb413e
     :commit_time: 
     :last_modified: 1687185390.6795082
-:commit: 5e06d22c8893e27d5a7243bd185faa94cc593072
+  output/train/results.csv:
+    :sha1: 744cfc5384588bd1edd73643f46c3ccecf3777b3
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3914824
+  output/train/val_batch1_pred.jpg:
+    :sha1: cee4c3c4c211b383c8d8e8836a7486de6f1b87d1
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.4074838
+  output/train/train_batch1.jpg:
+    :sha1: a0fe3344a3ae49b8951b6af1905acc28d06e9afd
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3954825
+  output/train/val_batch2_labels.jpg:
+    :sha1: bb05e3f6e11708a5903c37bc5e87a8a169ba9d7e
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.4114842
+  output/train/PR_curve.png:
+    :sha1: f9624f42ea106d29ea7345e5c491b9e9ba7554a5
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3794813
+  output/train/F1_curve.png:
+    :sha1: 119ee711c66659091e859180c98684820a8ac65b
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3794813
+  output/train/results.png:
+    :sha1: 93e0f63a0fd6db7287837bcbafe078dd01617618
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.3914824
+  output/train/val_batch2_pred.jpg:
+    :sha1: a1d94e03da05a2edbeaddccc739d4f4007472f6b
+    :commit_time: '2023-06-20T01:57:08.165Z'
+    :last_modified: 1687185390.4114842
+  output/: 
+:commit: a72b20062ec2c47ab2ceb97ac1bee818f8b6c6cb
