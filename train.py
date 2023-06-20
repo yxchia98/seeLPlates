@@ -42,6 +42,13 @@ subprocess.run(["git", "add", "."])
 subprocess.run(["git", "commit", "-m", "'experiment commit'"])
 subprocess.run(["git", "push", "origin", "main"])
 
+# Delete previous output artifacts
+location = '/cnvrg/output/'
+dir = 'train'
+path = os.path.join(location, dir)
+if os.path.exists(path):
+    shutil.rmtree(path)
+    
 # Source path 
 src = '/cnvrg/runs/detect/train'
 # Destination path 
