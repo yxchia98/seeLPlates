@@ -2,14 +2,14 @@ task: detect
 mode: train
 model: yolov8s.pt
 data: lpd.yaml
-epochs: 200
+epochs: 100
 patience: 50
-batch: 8
+batch: 16
 imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: cpu
+device: '0'
 workers: 8
 project: null
 name: null
