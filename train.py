@@ -35,13 +35,6 @@ batch_size = 12
 # Train the model
 model.train(data='lpd.yaml', epochs=epochs, imgsz=640, batch=batch_size, device=device)
 
-# Commit to Git
-subprocess.run(["pwd"])
-subprocess.run(["git", "status"])
-subprocess.run(["git", "add", "."])
-subprocess.run(["git", "commit", "-m", "'experiment commit'"])
-subprocess.run(["git", "push", "origin", "main"])
-
 # Delete previous output artifacts
 location = '/cnvrg/output/'
 dir = 'train'
@@ -55,3 +48,11 @@ src = '/cnvrg/runs/detect/train'
 dest = '/cnvrg/output/train'
 # Copy the content of source to destination 
 destination = shutil.copytree(src, dest) 
+
+
+# Commit to Git
+subprocess.run(["pwd"])
+subprocess.run(["git", "status"])
+subprocess.run(["git", "add", "."])
+subprocess.run(["git", "commit", "-m", "'experiment commit'"])
+subprocess.run(["git", "push", "origin", "main"])
