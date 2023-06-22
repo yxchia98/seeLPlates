@@ -9,12 +9,14 @@ import cv2
 from matplotlib import pyplot as plt
 import json
 import base64
+import torch
 
 
 model = YOLO('output/train/weights/best.pt')  # load a custom model
+device = torch.device('0' if torch.cuda.is_available() else 'cpu')
 
 def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 255)):
-  lw = max(round(sum(image.shape) / 2 * 0.002), 1)
+  lw = max(round(sum(image.shape) / 2 * 0.00001), 2)
   p1, p2 = (int(box[0]), int(box[1])), (int(box[2]), int(box[3]))
   cv2.rectangle(image, p1, p2, color, thickness=lw, lineType=cv2.LINE_AA)
   if label:
@@ -33,7 +35,7 @@ def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 
 
 def plot_bboxes(image, boxes, labels=[], colors=[], score=True, conf=None):
     if labels == []:
-        labels = {0: u'__background__', 1: u'plate'}
+        labels = {0: u'__background__', 1: u'Plate'}
     #Define colors
     if colors == []:
         # NOTE: opencv uses the BGR format instead of RGB
@@ -67,7 +69,7 @@ def predict(image_encoded):
     # do image predictions
     images = []
     images.append(image)
-    results = model(images)
+    results = model.predict(images, device=device)
     for result in results:
         boxes = result.boxes  # Boxes object for bbox outputs
         masks = result.masks  # Masks object for segmentation masks outputs

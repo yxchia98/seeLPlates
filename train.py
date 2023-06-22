@@ -21,7 +21,7 @@ if os.path.exists(path):
     shutil.rmtree(path)
 
 # input_model = os.environ.get('model') + '.pt' if os.environ.get('model') else 'yolov8n.pt'
-input_model = 'yolov8s.pt'
+input_model = 'yolov8m.pt'
 
 # Load a model
 # model = YOLO('yolov8n.yaml')  # build a new model from YAML
@@ -30,8 +30,8 @@ model = YOLO(input_model)  # load a pretrained model (recommended for training)
 # epochs = os.environ.get('epochs') if os.environ.get('epochs') else 100
 # device = os.environ.get('device') if os.environ.get('device') else 'cpu'
 epochs = 100
-device = '0'
-batch_size = 16
+device = torch.device('0' if torch.cuda.is_available() else 'cpu')
+batch_size = 12
 # Train the model
 model.train(data='lpd.yaml', epochs=epochs, imgsz=640, batch=batch_size, device=device)
 
