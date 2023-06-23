@@ -13,7 +13,7 @@ import torch
 
 
 model = YOLO('output/train/weights/best.pt')  # load a custom model
-device = torch.device('0' if torch.cuda.is_available() else 'cpu')
+device = '0' if torch.cuda.is_available() else 'cpu'
 
 def box_label(image, box, label='', color=(128, 128, 128), txt_color=(255, 255, 255)):
   lw = max(round(sum(image.shape) / 2 * 0.00001), 2)
