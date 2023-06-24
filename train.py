@@ -33,7 +33,7 @@ model = YOLO(input_model)  # load a pretrained model (recommended for training)
 # device = os.environ.get('device') if os.environ.get('device') else 'cpu'
 epochs = 100
 device = '0' if torch.cuda.is_available() else 'cpu'
-batch_size = 12
+batch_size = 8
 # Train the model
 model.train(data='lpd.yaml', epochs=epochs, imgsz=640, batch=batch_size, device=device)
 
