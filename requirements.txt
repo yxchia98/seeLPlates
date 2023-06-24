@@ -1,2 +1,2 @@
 ultralytics==8.0.115
-argparse==3.11.4
+argparse==1.4.0
