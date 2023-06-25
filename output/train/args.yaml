@@ -4,12 +4,12 @@ model: yolov8s.pt
 data: lpd.yaml
 epochs: 100
 patience: 50
-batch: 16
+batch: 12
 imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: '0'
+device: cpu
 workers: 8
 project: null
 name: null
