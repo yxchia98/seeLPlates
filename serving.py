@@ -150,9 +150,7 @@ def predict(image_encoded):
         for i in pred.cropped_results:
             cropped_result_as_text = base64.b64encode(cv2.imencode('.jpg', i)[1]).decode()
             cropped_images.append(cropped_result_as_text)
-        res = {
-            'image': pred_image,
-            'cropped_images': cropped_images
-        }
+        res['image'] = pred_image
+        res['cropped_images'] = cropped_images
     return res
     
